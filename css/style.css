@@ -1,0 +1,103 @@
+
+
+.main{
+     width: 1000px;
+  border:1px solid;
+  height: 250px;
+  float: left;
+}
+
+
+.Samsung{
+  display: block;
+  height: 15px;
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+
+.Galaxy{
+  margin-left: 20px;
+  display: block;
+}
+
+.Text_1{
+  display: block;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+.Buy_btn{
+  display: block;
+  margin-left: 820px;
+  margin-top: -50px;
+  width: 120px;
+}
+
+.Slider_text{
+  display: block;
+  margin-left: 820px;
+  margin-top: -200px;
+  width: 120px;
+}
+
+
+
+.page_container {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+    overflow-x: scroll;
+    margin-left: 300px;
+     width: 400px;
+ height: 180px;
+   overflow-y:hidden;
+   margin-top: -10px;
+
+}
+
+.interactive_3d img{
+  height: 100%;
+  width: 100%;
+   overflow-x: scroll;
+
+}
+
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:1px;
+height:0px;
+cursor:pointer;
+}
+
+::-webkit-scrollbar-track {
+width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+background-image: url('../images/load.png');
+background-color:#6dc0c8;
+width: 10px;
+height: 23px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+  cursor: pointer;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:10px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 23px;
+height: 0px;
+background-image:url('http://forumfiles.ru/files/0018/f3/7c/83641.jpg');
+background-color: #000;
+}

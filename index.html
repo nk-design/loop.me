@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Lopp Me JavaScript test task</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	    <script type="text/javascript" src="js/jquery.interactive_3d.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body >
+	
+	<div class="main">
+		<a href="#">
+	<img class="Samsung" src="images/T_SamsungLogo.png" alt="Samsung logo">
+	<img class="Galaxy" src="images/T_GalaxyLogo.png" alt="Galaxy logo">
+	<img class="Text_1" src="images/T_Text1.png" alt="Rethink what a phone can do">
+	<img class="Buy_btn" src="images/T_CTA.png" alt="Buy now">
+	<img class="Slider_text" src="images/T_SliderText.png" alt="Drag to explore">
+    <div class="page_container">
+      <div id="3d" class="interactive_3d">
+        <img src="images/frame_1.png">
+         </div>
+    </div>
+	</a>
+	</div>
+	<script type="text/javascript">
+	  $(document).ready( function() {
+	    $("#3d").interactive_3d({
+	      frames: 59,
+	      entrance: false
+	    });
+	  });
+ 	</script>
+		
+	</body>
+</html>
